@@ -10,7 +10,7 @@ function Movies() {
   const { data, error, isFetching } = useGetMoviesQuery({ genreIdOrCategoryName, page, searchQuery });
 
   const lg = useMediaQuery((theme) => theme.breakpoints.up('lg'));
-  const numberOfMovies = lg ? 17 : 19;
+  const numberOfMovies = lg ? 19 : 19;
 
   if (isFetching) {
     return (

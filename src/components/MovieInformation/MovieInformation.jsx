@@ -202,6 +202,7 @@ function MovieInformation() {
           title="Trailer"
           src={`https://www.youtube.com/embed/${data.videos.results[searchIndexTrailer].key}`}
           allow="autoplay"
+          allowFullScreen
         />
         )}
       </Modal>
